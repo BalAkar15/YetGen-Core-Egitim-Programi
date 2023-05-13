@@ -218,7 +218,7 @@ while running:
             mouse_pressed = pygame.mouse.get_pressed()
             pencere1.fill(siyah)
             pencere1.blit(arka_plan1,(0,0))
-#oyuncunun cidigimiz sinirlarda kalmasi icin
+#oyuncunun cizdigimiz sinirlarda kalmasi icin
             if oyuncu.rect.x < 300:
                 oyuncu.rect.x = 300
             if oyuncu.jump != True:
